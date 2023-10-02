@@ -1,29 +1,29 @@
-# vue-hierarchic-table
+# Компонент таблицы на Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+![](https://raw.githubusercontent.com/dbl0null/vue-hierarchic-table/main/usage.gif)
 
-## Recommended IDE Setup
+Реализация заняла 4ч
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Провозился с отступами в дочерних элементах таблицы из-за зависшего HMR
 
-## Customize configuration
+Было немного неочевидно, как вычисляются значения в "Итого", предположил, надеюсь попал
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Сортировака "своеобразная", только по первому столбцу
 
-## Project Setup
+Бэк рудиментарный, uWebsockets.js в качестве сервера просто чтобы как-то разнообразить
+
+## Запуск бэка 
+
+```sh
+cd backend
+npm i
+node index.js
+```
+
+## Запуск фронта
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
