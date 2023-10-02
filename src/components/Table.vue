@@ -13,7 +13,7 @@
     </tr>
     </thead>
     <tbody>
-    <template v-for="item in sortedItems">
+    <template v-for="item in sortedItems" :key="item.id">
       <TestRow v-bind="{
         title: item.title,
         countView: item.countView,
