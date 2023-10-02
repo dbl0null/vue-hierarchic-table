@@ -1,6 +1,6 @@
 # Компонент таблицы на Vue
 
-![](https://raw.githubusercontent.com/dbl0null/vue-hierarchic-table/main/usage.gif)
+![](https://github.com/dbl0null/vue-hierarchic-table/blob/main/usage.gif)
 
 Реализация заняла 4ч
 
