@@ -1,6 +1,6 @@
 <template>
   <main class="my-0 mx-auto max-w-12xl text-left">
-    <Table :items="items.items"/>
+      <Table :items="data.items"/>
   </main>
 </template>
 
@@ -10,12 +10,12 @@ export default {
     const response = await fetch('http://localhost:8080/data')
 
     if (response.ok) {
-      this.items = await response.json()
+      this.data = await response.json()
     }
   },
   data() {
     return {
-      items: []
+      data: []
     }
   }
 }
