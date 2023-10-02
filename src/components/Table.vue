@@ -2,7 +2,7 @@
   <table>
     <thead>
     <tr>
-      <th>Категория</th>
+      <th style="width: 25%">Категория</th>
       <th @click="sortAscending=-sortAscending">👀{{ sortAscending > 0 ? '↑' : '↓' }}</th>
       <th>▶️</th>
       <th>↑</th>
